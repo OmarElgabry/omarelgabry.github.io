@@ -528,7 +528,7 @@ jQuery(document).ready(function ($) {
 
     /* Masonry */
 
-    var grid = $('.grid-items');
+    var grid = $('.grid-items, .carousel-items');
 
     function masonry() {
 
@@ -2042,7 +2042,7 @@ jQuery(document).ready(function ($) {
         strings: [
             "Hello!", 
             "My Name is <br> Omar El Gabry", 
-            "22 Years Old", 
+            "23 Years Old", 
             "Check My <span style='color: rgba(161,210,110,1);'>Blog</span> <i class='fa fa-hand-o-up'></i>"
         ],
         typeSpeed: 100,
