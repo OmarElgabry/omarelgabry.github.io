@@ -2041,11 +2041,9 @@ jQuery(document).ready(function ($) {
     $(".typed").typed({
         strings: [
             "Hello!", 
-            "My Name is <br> Omar El Gabry", 
-            "23 Years Old", 
-            "Check My <span style='color: rgba(161,210,110,1);'>Blog</span> <i class='fa fa-hand-o-up'></i>"
+            "My Name is <br> Omar El Gabry"
         ],
-        typeSpeed: 100,
+        typeSpeed: 75,
         backDelay: 900,
         loop: true
     });
