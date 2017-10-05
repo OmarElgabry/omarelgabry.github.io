@@ -2040,12 +2040,21 @@ jQuery(document).ready(function ($) {
 
     $(".typed").typed({
         strings: [
-            "Hello!", 
-            "My Name is <br> Omar El Gabry"
+            "Hello! 👋", 
+            "Glad to have you here",
+            "A cup of <a href='https://media.tenor.com/images/5ef1470d8c4620e95f103a1632177e59/tenor.gif' target='_blank'>coffee</a> ☕?",
+            "Oh, you checked my blog <i class='fa fa-hand-pointer-o'></i>?",
+            "Crafted With <i class='fa fa-heart' style='color:red;'></i>"
         ],
         typeSpeed: 75,
         backDelay: 900,
-        loop: true
+        loop: false,
+        callback: function () {
+            setTimeout(function(){
+                $(".typed-cursor").remove();  
+                $(".typed").hide().html("Omar El Gabry").fadeIn(1400);
+            }, 1500); 
+        }
     });
 
 

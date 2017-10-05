@@ -4751,6 +4751,12 @@ ul.meta-social li a.medium-share:hover {
     background-color: #00ab6b;
 }
 
+.meta-social ul li a.quora-share:hover,
+ul.meta-social li a.quora-share:hover {
+    border-color: #b92b27;
+    background-color: #b92b27;
+}
+
 #intro .intro-mockup .meta-social ul li a.github-share:hover,
 #intro .intro-mockup ul.meta-social li a.github-share:hover {
     background-color: #888;
