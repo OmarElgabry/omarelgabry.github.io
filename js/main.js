@@ -2052,7 +2052,7 @@ jQuery(document).ready(function ($) {
         callback: function () {
             setTimeout(function(){
                 $(".typed-cursor").remove();  
-                $(".typed").hide().html("Omar El Gabry").fadeIn(1400);
+                $(".typed").hide().html("OMAR ELGABRY").fadeIn(1400);
             }, 1500); 
         }
     });
